@@ -1,0 +1,584 @@
+body {
+    padding: auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+header{
+    position:fixed;
+    width: 100vw;
+    z-index: 1000;
+    height: 20vh;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+
+    @media (max-width:820px){
+        display: none;
+    }
+}
+
+header span{
+    background-color: rgba(98, 32, 193, 1);
+    border: 2px solid rgba(98, 32, 193, 1);
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+header i{
+    font-weight: lighter;
+}
+
+.texto-inicial{
+    font-size: smaller;
+    font-weight:bolder;
+    color: white;
+    background-color: rgba(0, 92, 255, 1);
+    margin: 0;
+    padding: 6px;
+}
+
+main{
+    padding-top: 20vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 13vh;
+    padding: 0 15vw;
+    gap: 3rem;
+}
+
+.box {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.search-box {
+    display: flex;
+    flex: 2;
+    justify-content: left;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    position: relative;
+}
+
+header input{
+    width: 100%;
+    left: 0;
+    height: 2rem;
+    border-radius: 8px;
+    border: 2px solid rgb(182, 181, 181);
+    border-width: thin;
+    padding-left: 1rem;
+}
+.search-box input::placeholder {
+    color: black; 
+    opacity: 1;
+}
+header button{
+    cursor: pointer;
+    position:absolute;
+    border: none;
+    background: transparent;
+    right: 2%  
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.usuario{
+    font-size: 10px;
+    text-align: left;
+}
+
+.usuario p{
+    margin: 0;
+}
+
+.cart{
+    text-align: left;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 10px;
+}
+
+.box-nav{
+    color: black;
+    font-size: 11px;
+    font-weight: thin;
+    border-radius: 8px;
+    width:fit-content;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    background-color: rgb(224, 224, 224);
+    min-width: 100vw;
+    height: 40vh;
+
+    @media (max-width: 820px) {
+        height: 40vh;
+        gap: 1rem;
+        text-align: center; /* Centraliza o texto */
+    }
+}
+
+.first-section .chair{
+
+    @media (max-width:820px){
+        object-position: right;
+        height: 40vh;
+        width: 50%;
+        display: block;
+        object-fit: cover;
+        
+    }
+}
+
+.first-section br{
+    display: none;
+
+    @media (max-width:820) {
+        display: block;
+    }
+}
+
+.first-section .title {
+    font-size: 4rem;
+    font-weight:lighter;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    word-spacing: 0.05em;
+    display: inline-block; /* Para que o "SUPER" e "SALE" fiquem no mesmo bloco */
+
+    @media (max-width: 820px) {
+        font-size: 8vw;
+        margin: 0 30px 0 0; 
+    }
+}
+
+.first-section .title span{
+    font-weight:700;
+}
+
+.first-section .itens-selecionados{
+    font-weight: 700;
+    font-size:large;
+    letter-spacing: 5px;
+
+    @media (max-width: 820px) {
+        font-size: 3vw; /* Ajusta o tamanho da fonte na versão mobile */
+    }
+}
+
+.text-section-one{
+    color: rgb(0, 119, 255);
+    font-size:larger;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+
+    @media (max-width: 820px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        width: 100%;
+        height: 100%;
+        font-size: 3vw; /* Ajusta o tamanho da fonte na versão mobile */
+    }
+}
+
+.text-section-one p{
+    @media (max-width:820px) {
+        font-size: small;
+        margin-right: 30px;
+    }
+}
+
+.off{
+    font-size: 2.5rem;
+
+    @media (max-width: 820px) {
+        font-size: 2rem;
+        margin-right: 30px;
+    }
+}
+
+.slide{
+    position: relative;
+    width: 69vw;
+    overflow: hidden;
+    margin: 4rem auto;
+    @media (max-width: 768px) {
+        width: 100vw;
+        margin: 4rem auto
+    }
+}
+
+.carousel-slide {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: 5px;
+  }
+  
+  .carousel-slide::-webkit-scrollbar {
+    display: none;
+  }
+
+.card {
+    flex: 0 0 clamp(200px, 25vw, 280px);
+    min-width: 100px;
+    max-width: 200px;
+    position: relative;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    padding-bottom: 2.8rem;
+
+    @media (max-width:820px) {
+        width: 10%;
+    }
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.hidden {
+    @media (max-width:820px) {
+        display: none;
+    }
+}
+
+.card .new{
+    position: absolute;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: smaller;
+    background-color: rgba(0, 38, 78, 1);
+}
+
+.card img{
+    display: block;
+    margin: 0 auto;
+    height: 12rem;
+}
+
+.card h3{
+    font-size: smaller;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.7);  
+
+}
+
+.card s{
+    color: rgba(0, 0, 0, 0.7);  
+
+}
+
+.p-left{
+    padding-left: 5px;
+}
+
+.off10{
+    color: white;
+    border-radius: 3px;
+    padding: 1px;
+    margin-left: 8px;
+    font-size: smaller;
+    background-color: rgba(94, 192, 190, 1);
+}
+
+.card p{
+    font-size: smaller;
+    font-weight:lighter;
+}
+
+.card b{
+    font-weight: bold;
+}
+
+.btn-buy{
+    position: absolute;
+    left: 50%;           /* Alinha o botão no centro horizontal */
+    transform: translateX(-50%);
+    width: 95%;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    background: transparent;
+    background-color: rgb(0, 92, 255);
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .arrow{
+    width: 2rem;
+    height: 2rem;
+
+    @media (max-width: 820px) {
+        display: none;
+    }
+}
+  
+  .carousel-btn.prev {
+    left: 0;
+    opacity: 60%;
+}
+  
+  .carousel-btn.next {
+    right: 0;
+    opacity: 60%;
+  }
+
+ 
+  /* @media (max-width: 768px) {
+
+    .container{
+        padding: 0;
+    }
+
+    .header p {
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    .logo{
+        width: 5rem;
+    }
+
+    .chair{
+        display:none;
+    }
+
+    .text-section-one{
+        padding: 3rem 0;
+    }
+
+    .text-section-one .title{
+        margin: auto
+    }
+} */
+
+.mug-section{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 3rem 0;
+
+    @media (max-width: 820px) {
+        display: flex;
+        flex-direction: column;
+        width: 100vw
+    }
+}
+
+.mug-section img{
+    background-color: rgb(224, 224, 224);
+    width: 30vw;
+
+    @media (max-width: 820px) {
+        width: 100%;
+    }
+}
+
+.mug-section .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: medium;
+    width: 30vw;
+    justify-content: center;
+
+    @media (max-width: 820px) {
+        margin: 0 auto;
+        width: 75vw;
+    }
+
+}
+.mug-section h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.mug-section p{
+    color: rgba(0, 0, 0, 0.7);  
+    font-weight: 400;
+}
+
+.fourth-section{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    padding: 2rem 0;
+    color: rgba(0, 0, 0, 0.7);  
+
+    @media (max-width: 820px) {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        
+    }
+}
+
+.fourth-section .image{
+    width: 30vw;
+
+    @media (max-width: 820px){
+
+        width: 100vw;
+    }
+}
+
+.fourth-section .image img{
+
+    @media (max-width: 820px){
+
+        width: 90%;
+    }
+}
+
+.fourth-section .text-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin: auto;
+
+    @media (max-width: 820px){
+        width: 80vw;
+    }
+}
+
+.fourth-section .text-container{
+    display: flex;
+    gap: 15px;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.5);  
+
+}
+
+.fourth-section .text-container img{
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+
+.fourth-section h1{
+    font-weight: 700;
+}
+
+.fourth-section p{
+    text-align: left;
+    font-weight: 400;
+}
+
+.seventh-section{
+    background-image: url('./src/avanti-banner.png');
+    background-size: cover; /* A imagem é ajustada para cobrir toda a div, cortando as partes excedentes */
+    background-position: center; /* Centraliza a imagem dentro da div */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+
+    @media (max-width:820px) {
+        height: 30vh;
+        margin: 0 0 2rem 0;
+    }
+}
+
+.seventh-section p{
+    margin: auto 0;
+    width: 100vw;
+    padding: 2rem 0;
+    background-color: rgb(0, 119, 255);
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: 500;
+
+    @media (max-width: 820px) {
+        font-size: smaller;
+        padding: 10px 0;
+    }
+}
+/* @media (max-width: 480px) {
+    .container{
+        padding: 0;
+    }
+
+    .header p {
+        font-size: 11px;
+        padding: 6px;
+    }
+
+    .logo{
+        width: 5rem;
+        left: 0;
+    }
+
+    .text-section-one{
+        padding: 3rem 0;
+        font-size:1rem;
+    }
+
+    .text-section-one .title{
+        margin: auto;
+        font-size: 3rem;
+    }
+} */
