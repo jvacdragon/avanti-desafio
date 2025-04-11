@@ -128,7 +128,7 @@ header input{
     color: black; 
     opacity: 1;
 }
-header button{
+.search-box button{
     cursor: pointer;
     position:absolute;
     border: none;
@@ -155,6 +155,12 @@ header button{
     text-align: left;
 }
 
+header .modeal{
+    position:fixed;
+    background-color: aquamarine;
+    height: 20vh;
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -173,6 +179,134 @@ header button{
     border-radius: 8px;
     width:fit-content;
 }
+
+.container-nav {
+    position: relative;
+  }
+  
+  .dropdown-modal {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    min-width: 200px;
+  }
+  
+  .dropdown-modal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-modal ul li {
+    padding: 8px 0;
+    transition: background 0.2s ease;
+  }
+  
+  .dropdown-modal ul li:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .container-nav .dropdown-modal {
+    display: block;
+  }
+
+  .nav .flex-modal{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 80vw;
+  }
+
+  .nav .ver-todos{
+    background-image: url('./src/full-mug-dark.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 20%;
+    height: 35vh;
+    margin: auto 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    font-size: 20px;
+}
+
+.ver-todos span{
+    font-weight: 400;
+}
+
+.departamento{
+    width: 10rem;
+}
+
+.departamento li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.categorias{
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+}
+
+.categorias:hover{
+    color: rgba(0, 92, 255, 1);
+    font-weight: 700;
+}
+
+.line-one{
+    color: rgba(0, 92, 255, 1);
+    font-weight: 700;
+}
+  .blue-menu {
+    display: none;
+    vertical-align: bottom;
+  }
+  
+  .categorias:hover .menu {
+    display: none;
+  }
+  
+  .categorias:hover .blue-menu {
+    display: block;
+  }
+
+.ver-todos button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.categorias-wrapper {
+    position: relative;
+  }
+  
+  .categorias-wrapper .dropdown-modal {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  
+  .categorias-wrapper:hover .dropdown-modal {
+    display: block;
+  }
 
 .first-section{
     display: flex;
