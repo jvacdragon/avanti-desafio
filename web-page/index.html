@@ -1,559 +1,848 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Avanti </title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300&display=swap" rel="stylesheet">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avanti</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <p class="texto-inicial">Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <i>DESCONTO10</i></p>
-        <div class="desktop">
-            <div class="container">
-                <div class="box">
-                    <img class="logo" src="./src/avantiLogo.png" alt="Logo da Avanti">
-                </div>
-                
-                <div class="search-box">
-                    <input type="text" placeholder="Digite aqui o que você procura">
-                    <button> <img src="./src/search-interface-symbol.png" alt="Search" width="20px"> </button>
-                </div>
-                
-                <div class="box flex">
-                    <img class="user-image" src="./src/user.png" alt="User" width="30px">
-                    <div class="usuario">
-                        <p>Olá, </p>
-                        <p>Nome cliente!</p>
-                    </div>
-                    <div class="box cart"><img src="./src/shopping-cart.png" alt="Cart" width="25px"></div>
-                </div>
+      <p class="texto-inicial">
+        Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize o
+        cupom <i>DESCONTO10</i>
+      </p>
+      <div class="desktop">
+        <div class="container">
+          <div class="box">
+            <img class="logo" src="./src/avantiLogo.png" alt="Logo da Avanti" />
+          </div>
+
+          <div class="search-box">
+            <input type="text" placeholder="Digite aqui o que você procura" />
+            <button class="btn-busca">
+              <img
+                src="./src/search-interface-symbol.png"
+                alt="Search"
+                width="20px"
+              />
+            </button>
+          </div>
+
+
+          <div class="box flex">
+            <img
+              class="user-image"
+              src="./src/user.png"
+              alt="User"
+              width="30px"
+            />
+            <div class="usuario">
+              <p>Olá,</p>
+              <p>Nome cliente!</p>
             </div>
+            <div class="box cart">
+              <img src="./src/shopping-cart.png" alt="Cart" width="25px" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile">
+        <div class="menu-mobile">
+          <img
+            class="menu"
+            src="./src/menu.png"
+            height="25px"
+            width="25px"
+            alt="menu"
+          />
+
+          <img class="logo" src="./src/avantiLogo.png" alt="Logo da Avanti" />
+
+          <img src="./src/shopping-cart.png" alt="Cart" width="25px" />
         </div>
 
-        <div class="mobile">
-            <div class="menu-mobile">
-                <img class="menu" src="./src/menu.png" height="25px" width="25px" alt="menu">
-                
-                <img class="logo" src="./src/avantiLogo.png" alt="Logo da Avanti">
-                
-                <img src="./src/shopping-cart.png" alt="Cart" width="25px">
+        <div class="search-box">
+          <input type="text" placeholder="Digite aqui o que você procura" />
+          <button>
+            <img
+              src="./src/search-interface-symbol.png"
+              alt="Search"
+              width="20px"
+            />
+          </button>
+        </div>        
+      </div>
+
+      
+
+      <div class="nav">
+        <div class="box-nav container-nav">
+          <div class="categorias-wrapper">
+            <div class="categorias">
+              <img class="menu" src="./src/menu.png" alt="Menu" height="10px" />
+              <img
+                class="blue-menu"
+                src="./src/blue-menu.png"
+                alt="Menu"
+                height="10px"
+              />
+              Todas as Categorias
             </div>
 
-                <div class="search-box">
-                    <input type="text" placeholder="Digite aqui o que você procura">
-                    <button> <img src="./src/search-interface-symbol.png" alt="Search" width="20px"> </button>
+            <div class="box-nav nav-departamento">Departamento</div>
+
+            <div class="dropdown-modal">
+              <div class="flex-modal flex-departamento">
+                <ul class="departamento">
+                  <li class="line-one">
+                    Departamento
+                    <img
+                      src="./src/blue-arrow.png"
+                      height="8px"
+                      alt="blue-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                  <li>
+                    Departamento
+                    <img
+                      src="./src/arrow.png"
+                      height="8px"
+                      alt="gray-right-arrow"
+                    />
+                  </li>
+                </ul>
+
+                <ul>
+                  <li class="line-one">Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                </ul>
+
+                <ul>
+                  <li class="line-one">Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                </ul>
+
+                <ul>
+                  <li class="line-one">Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                  <li>Categoria</li>
+                </ul>
+
+                <div class="ver-todos">
+                  Confira os
+                  <br />
+                  Produtos
+                  <br />
+                  <span
+                    >Que
+                    <br />
+                    Acabaram
+                    <br />
+                    De chegar
+                  </span>
+                  <br />
+                  <button>Ver Todos</button>
                 </div>
+              </div>
+
+              <div class="flex-modal flex-categorias">
+                <div class="categoria-column">
+                  <h3>Departamento</h3>
+                  <div class="flex-row">
+                    <ul>
+                      <li class="line-one">Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                    </ul>
+
+                    <ul>
+                      <li class="line-one">Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                    </ul>
+
+                    <ul>
+                      <li class="line-one">Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                      <li>Categorias</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ver-todos">
+                  Confira os
+                  <br />
+                  Produtos
+                  <br />
+                  <span
+                    >Que
+                    <br />
+                    Acabaram
+                    <br />
+                    De chegar
+                  </span>
+                  <br />
+                  <button>Ver Todos</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="nav">
-            <div class="box-nav container-nav">
-                <div class="categorias-wrapper">
-                <div class="categorias">
-                    <img class="menu" src="./src/menu.png" alt="Menu" height="10px">
-                    <img class="blue-menu" src="./src/blue-menu.png" alt="Menu" height="10px">
-                    Todas as Categorias
-                </div>
-                    <div class="dropdown-modal">
-                        <div class="flex-modal">
-                            <ul class="departamento">
-                                <li class="line-one">Departamento  <img src="./src/blue-arrow.png" height="8px" alt="blue-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                                <li>Departamento  <img src="./src/arrow.png" height="8px" alt="gray-right-arrow" ></li>
-                            </ul>
-
-                            <ul>
-                                <li class="line-one">Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-
-                            </ul>
-
-                            <ul>
-                                <li class="line-one">Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-
-                            </ul>
-
-                            <ul>
-                                <li class="line-one">Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-                                <li>Categoria</li>
-
-                            </ul>
-
-                            <div ></div>
-                            <div ></div>
-
-                            <div class="ver-todos">
-                                Confira os
-                                <br/>
-                                Produtos
-                                <br/> 
-                                <span>Que
-                                <br/>
-                                Acabaram
-                                <br/>
-                                De chegar </span>
-                                <br/>
-                                <button>Ver Todos</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-            <div class="box-nav">
-                Departamento
-            </div>
-        </div>
+        <div class="box-nav">Departamento</div>
+        <div class="box-nav">Departamento</div>
+        <div class="box-nav">Departamento</div>
+        <div class="box-nav">Departamento</div>
+        <div class="box-nav">Departamento</div>
+        <div class="box-nav">Departamento</div>
+        <div class="box-nav">Departamento</div>
+      </div>
     </header>
 
     <main>
-        <section class="first-section">
-            <img class="chair" src="./src/chair.png" alt="Chair">
-            <div class="text-section-one">
-                <p class="title"><span>SUPER</span> <br/>SALE</p>
-                <p class="itens-selecionados">ITENS SELECIONADOS COM ATÉ</p>
-                <span class="off">50%OFF</span>
-            </div>
-        </section>
+      <section class="first-section">
+        <img class="chair" src="./src/chair.png" alt="Chair" />
+        <div class="text-section-one">
+          <p class="title"><span>SUPER</span> <br />SALE</p>
+          <p class="itens-selecionados">ITENS SELECIONADOS COM ATÉ</p>
+          <span class="off">50%OFF</span>
+        </div>
+      </section>
 
-        <section class="slide">
-            <div class="desc">
-                <b>Lançamentos</b>
-                <u>Ver mais</u>
-            </div>
-            <button class="carousel-btn prev"><img class="arrow" src="./src/back.png"  alt="back-arrow"></button>
+      <section class="slide">
+        <div class="desc">
+          <b>Lançamentos</b>
+          <u>Ver mais</u>
+        </div>
 
-            <div class="carousel-slide" id="carousel">
-                    <div class="card ">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png" width="150rem" alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                    <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                    <br/>
-                    <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                    <button class="btn-buy" type="submit">Comprar</button>
-                </div>
-                
-                <div class="card">
-                    <span class="new">Novo</span>
-                    <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                    <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                    <s class="p-left">R$100,00</s>
-                    <br/>
-                    <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                    <br/>
-                    <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                    <button class="btn-buy" type="submit">Comprar</button>
-                </div>
-                
-                <div class="card">
-                    <span class="new">Novo</span>
-                    <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                    <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                    <s class="p-left">R$100,00</s>
-                    <br/>
-                    <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                    <br/>
-                    <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                    <button class="btn-buy" type="submit">Comprar</button>
-                </div>
-            </div>
-            <button class="carousel-btn next"><img class="arrow" src="./src/next.png"  alt="back-arrow"></button>
-        </section>
+        <button class="carousel-btn prev">
+          <img class="arrow" src="./src/back.png" alt="back-arrow" />
+        </button>
 
-        <section class="mug-section">
-            <div class="image">
-                <img class="mug" src="./src/caneca.png"  alt="Avanti Mug">
-            </div>
+        <div class="carousel-slide" id="carousel">
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-            <div class="text">
-                <h1>Lorem Ipsum</h1>
-                <p>
-                    Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.                  
-                </p>
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-                <p>
-                    Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.                   
-                </p>
-            </div>
-        </section>
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-        <section class="fourth-section">
-            <div class="text-field">
-                <h1>Lorem Ipsum</h1>
-                <div class="text-container">
-                    <img class="map" src="./src/map.png"  alt="map-pointer">
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-                    <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
-                </div>
-                <div class="text-container">
-                    <img class="map" src="./src/map.png"  alt="map-pointer">
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-                    <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
-                </div>
-                <div class="text-container">
-                    <img class="map" src="./src/map.png"  alt="map-pointer">
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-                    <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
-                </div>
-            </div>
+          <div class="card">
+            <span class="new">Novo</span>
+            <img
+              class="tshirt"
+              src="./src/tshirt.png"
+              width="150rem"
+              alt="white-tshirt"
+            />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-            <div class="image">
-                <img class="mug" src="./src/full-mug.png"  alt="Avanti Mug">
-            </div>
-        </section>
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
 
-        <section class="mug-section">
-            <div class="image">
-                <img class="mug" src="./src/caneca.png"  alt="Avanti Mug">
-            </div>
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+        </div>
+        <button class="carousel-btn next">
+          <img class="arrow" src="./src/next.png" alt="back-arrow" />
+        </button>
+      </section>
 
-            <div class="text">
-                <h1>Lorem Ipsum</h1>
-                <p>
-                    Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.                  
-                </p>
+      <section class="mug-section">
+        <div class="image">
+          <img class="mug" src="./src/caneca.png" alt="Avanti Mug" />
+        </div>
 
-                <p>
-                    Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.                   
-                </p>
-            </div>
-        </section>
+        <div class="text">
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod
+            orci, auctor fringilla magna consequat interdum. Fusce sagittis elit
+            a libero commodo egestas efficitur id augue.
+          </p>
 
-        <section class="slide hidden">
-            <div class="desc">
-                <b>Lançamentos</b>
-                <u>Ver mais</u>
-            </div>
-            <button class="carousel-btn prev"><img class="arrow" src="./src/back.png"  alt="back-arrow"></button>
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod
+            orci, auctor fringilla magna consequat interdum. Fusce sagittis elit
+            a libero commodo egestas efficitur id augue.
+          </p>
+        </div>
+      </section>
 
-            <div class="carousel-slide" id="carousel">
-                    <div class="card ">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                        <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                        <br/>
-                        <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                        <button class="btn-buy" type="submit">Comprar</button>
-                    </div>
-                    
-                    <div class="card">
-                        <span class="new">Novo</span>
-                        <img class="tshirt" src="./src/tshirt.png" width="150rem" alt="white-tshirt">
-                        <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                        <s class="p-left">R$100,00</s>
-                        <br/>
-                    <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                    <br/>
-                    <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                    <button class="btn-buy" type="submit">Comprar</button>
-                </div>
-                
-                <div class="card">
-                    <span class="new">Novo</span>
-                    <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                    <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                    <s class="p-left">R$100,00</s>
-                    <br/>
-                    <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                    <br/>
-                    <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                    <button class="btn-buy" type="submit">Comprar</button>
-                </div>
-                
-                <div class="card">
-                    <span class="new">Novo</span>
-                    <img class="tshirt" src="./src/tshirt.png"  alt="white-tshirt">
-                    <h3 class="p-left"> Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                    <s class="p-left">R$100,00</s>
-                    <br/>
-                    <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
-                    <br/>
-                    <p class="p-left">Ou em até <b>10x de R$7,90</b> </p>
-                    <button class="btn-buy" type="submit">Comprar</button>
-                </div>
-            </div>
-            <button class="carousel-btn next"><img class="arrow" src="./src/next.png"  alt="back-arrow"></button>
-        </section>
+      <section class="fourth-section">
+        <div class="text-field">
+          <h1>Lorem Ipsum</h1>
+          <div class="text-container">
+            <img class="map" src="./src/map.png" alt="map-pointer" />
 
-        <section class="seventh-section">
-            <p>Entre em contato conosco e verifique a disponibilidade da sua região!</p>
-        </section>
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem.
+            </p>
+          </div>
+          <div class="text-container">
+            <img class="map" src="./src/map.png" alt="map-pointer" />
 
-        <section class="newsletter">
-            <p>Cadastre-se na nossa <span>newsletter</span></p>
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem.
+            </p>
+          </div>
+          <div class="text-container">
+            <img class="map" src="./src/map.png" alt="map-pointer" />
 
-            <form>
-                <input type="text" placeholder="Digite o seu nome">
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem.
+            </p>
+          </div>
+        </div>
 
-                <input type="text" placeholder="Digite o seu e-mail">
+        <div class="image">
+          <img class="mug" src="./src/full-mug.png" alt="Avanti Mug" />
+        </div>
+      </section>
 
-                <label><input type="checkbox"> Estou de acordo com as <u>Politicas de Privacidade</u></label>
+      <section class="mug-section">
+        <div class="image">
+          <img class="mug" src="./src/caneca.png" alt="Avanti Mug" />
+        </div>
 
-                <button>Cadastrar</button>
-            </form>
-        </section>
+        <div class="text">
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod
+            orci, auctor fringilla magna consequat interdum. Fusce sagittis elit
+            a libero commodo egestas efficitur id augue.
+          </p>
+
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod
+            orci, auctor fringilla magna consequat interdum. Fusce sagittis elit
+            a libero commodo egestas efficitur id augue.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide hidden">
+        <div class="desc">
+          <b>Lançamentos</b>
+          <u>Ver mais</u>
+        </div>
+        <button class="carousel-btn prev">
+          <img class="arrow" src="./src/back.png" alt="back-arrow" />
+        </button>
+
+        <div class="carousel-slide" id="carousel">
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img
+              class="tshirt"
+              src="./src/tshirt.png"
+              width="150rem"
+              alt="white-tshirt"
+            />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+
+          <div class="card">
+            <span class="new">Novo</span>
+            <img class="tshirt" src="./src/tshirt.png" alt="white-tshirt" />
+            <h3 class="p-left">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <s class="p-left">R$100,00</s>
+            <br />
+            <b class="p-left">R$79,00</b> <span class="off10">10% OFF</span>
+            <br />
+            <p class="p-left">Ou em até <b>10x de R$7,90</b></p>
+            <button class="btn-buy" type="submit">Comprar</button>
+          </div>
+        </div>
+        <button class="carousel-btn next">
+          <img class="arrow" src="./src/next.png" alt="back-arrow" />
+        </button>
+      </section>
+
+      <section class="seventh-section">
+        <p>
+          Entre em contato conosco e verifique a disponibilidade da sua região!
+        </p>
+      </section>
+
+      <section class="newsletter">
+        <p>Cadastre-se na nossa <span>newsletter</span></p>
+
+        <form>
+          <input type="text" placeholder="Digite o seu nome" />
+
+          <input type="text" placeholder="Digite o seu e-mail" />
+
+          <label
+            ><input type="checkbox" /> Estou de acordo com as
+            <u>Politicas de Privacidade</u></label
+          >
+
+          <button>Cadastrar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <div class="footer-one">
-            <div class="institucional">
-                <div class="logos">
-                    <div class="avanti">
-                        <img src="./src/avantiLogo.png"  alt="avanti logo">
-                    </div>
-
-                    
-                    <div class="social">
-                        <img class="logo" src="./src/footer/instagram.png"  alt="instagram logo">
-                        <img class="logo" src="./src/footer/facebook.png"  alt="facebook logo">
-                        <img class="logo" src="./src/footer/youtube.png"  alt="youtube logo">
-                        <img class="logo" src="./src/footer/tiktok.png"  alt="tiktok logo">
-                    </div>
-                </div>
-
-                <div class="columns">
-                    <h4>Institucional</h4>
-                    <h5>Sobre Nós</h5>
-                    <h5>Nossas Lojas</h5>
-                    <h5>Privacidade e Segurança</h5>
-                    <h5>Termos e condições</h5>
-                </div>
-                
-                <div class="columns">
-                    <h4>Central de Ajuda</h4>
-                    <h5>Fale Conosco</h5>
-                    <h5>Frete e entraga</h5>
-                    <h5>Trocas e Devoluções</h5>
-                    <h5>Formas de Pagamento</h5>
-                    <h5>FAQ</h5>
-                </div>
-
-                <div class="columns">
-                    <h4>Atendimento</h4>
-                    <h5><span>Telefone:</span> (00) 1234-5678</h5>
-                    <h5><span>E-mail:</span> exemplo@exemplo.com.br</h5>
-                    <div class="horarios">
-                    <h5><span>Horario de atendimento:</span></h5>
-                        <h5>Segunda e Sábado: 07h00 às 23h00</h5>
-                        <h5>Domingos e Feriados: 07h00 às 21h00</h5>
-                    </div>
-                </div>
+      <div class="footer-one">
+        <div class="institucional">
+          <div class="logos">
+            <div class="avanti">
+              <img src="./src/avantiLogo.png" alt="avanti logo" />
             </div>
-            
-            <div class="payments">
-                <img class="logo"  src="./src/footer/amex.png"  alt="amex logo">
-                <img class="logo" src="./src/footer/logo-l.png"  alt="logo desconhecido">
-                <img class="logo" src="./src/footer/visa.png"  alt="logo visa">
-                <img class="logo" src="./src/footer/hipercard.png"  alt="logo hipercard">
-                <img class="logo" src="./src/footer/elo.png"  alt="logo elo">
-                <img class="logo" src="./src/footer/logo.png"  alt="logo desconhecido">
-                <img class="logo" src="./src/footer/paypal.png"  alt="paypal logo">
-                <img class="logo" src="./src/footer/pix.png"  alt="pix logo">
-                <img class="logo" src="./src/footer/boleto.png"  alt="boleto logo">
+
+            <div class="social">
+              <img
+                class="logo"
+                src="./src/footer/instagram.png"
+                alt="instagram logo"
+              />
+              <img
+                class="logo"
+                src="./src/footer/facebook.png"
+                alt="facebook logo"
+              />
+              <img
+                class="logo"
+                src="./src/footer/youtube.png"
+                alt="youtube logo"
+              />
+              <img
+                class="logo"
+                src="./src/footer/tiktok.png"
+                alt="tiktok logo"
+              />
             </div>
+          </div>
+
+          <div class="columns">
+            <h4>Institucional</h4>
+            <h5>Sobre Nós</h5>
+            <h5>Nossas Lojas</h5>
+            <h5>Privacidade e Segurança</h5>
+            <h5>Termos e condições</h5>
+          </div>
+
+          <div class="columns">
+            <h4>Central de Ajuda</h4>
+            <h5>Fale Conosco</h5>
+            <h5>Frete e entraga</h5>
+            <h5>Trocas e Devoluções</h5>
+            <h5>Formas de Pagamento</h5>
+            <h5>FAQ</h5>
+          </div>
+
+          <div class="columns">
+            <h4>Atendimento</h4>
+            <h5><span>Telefone:</span> (00) 1234-5678</h5>
+            <h5><span>E-mail:</span> exemplo@exemplo.com.br</h5>
+            <div class="horarios">
+              <h5><span>Horario de atendimento:</span></h5>
+              <h5>Segunda e Sábado: 07h00 às 23h00</h5>
+              <h5>Domingos e Feriados: 07h00 às 21h00</h5>
+            </div>
+          </div>
         </div>
 
-        <div class="footer-two">
-            <p class="big-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-
-            <p class="mobile-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
-            </p>
-
-            <div class="end-logos">
-                <img class="logo" src="./src/footer/lets-encrypt.png"  alt="let's encrypt logo">
-                <img class="logo" src="./src/footer/vtex-certified.png"  alt="vtex certified logo">
-                <img class="logo-big" src="./src/avantiLogo.png"  alt="avanti logo">
-                <img class="logo-big" src="./src/footer/vtex.png"  alt="vtex logo">
-            </div>
+        <div class="payments">
+          <img class="logo" src="./src/footer/amex.png" alt="amex logo" />
+          <img
+            class="logo"
+            src="./src/footer/logo-l.png"
+            alt="logo desconhecido"
+          />
+          <img class="logo" src="./src/footer/visa.png" alt="logo visa" />
+          <img
+            class="logo"
+            src="./src/footer/hipercard.png"
+            alt="logo hipercard"
+          />
+          <img class="logo" src="./src/footer/elo.png" alt="logo elo" />
+          <img
+            class="logo"
+            src="./src/footer/logo.png"
+            alt="logo desconhecido"
+          />
+          <img class="logo" src="./src/footer/paypal.png" alt="paypal logo" />
+          <img class="logo" src="./src/footer/pix.png" alt="pix logo" />
+          <img class="logo" src="./src/footer/boleto.png" alt="boleto logo" />
         </div>
+      </div>
+
+      <div class="footer-two">
+        <p class="big-text">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+
+        <p class="mobile-text">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+        </p>
+
+        <div class="end-logos">
+          <img
+            class="logo"
+            src="./src/footer/lets-encrypt.png"
+            alt="let's encrypt logo"
+          />
+          <img
+            class="logo"
+            src="./src/footer/vtex-certified.png"
+            alt="vtex certified logo"
+          />
+          <img class="logo-big" src="./src/avantiLogo.png" alt="avanti logo" />
+          <img class="logo-big" src="./src/footer/vtex.png" alt="vtex logo" />
+        </div>
+      </div>
     </footer>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
