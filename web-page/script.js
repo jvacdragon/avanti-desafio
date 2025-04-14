@@ -45,3 +45,17 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("show-categorias", "show-departamento");
   });
 });
+
+
+document.querySelectorAll(".btn-busca").forEach(btn => btn.addEventListener("click", () => {
+  const buscado = document.querySelector(".busca")
+  const buscadoMobile = document.querySelector(".busca-mobile")
+  const pesquisa = document.querySelector(".search").value
+  const pesquisaMobile = document.querySelector(".search-mobile").value
+
+  if(document.querySelector(".search").value != "") buscado.innerHTML = `<p>Sua pesquisa foi: ${pesquisa}</p>`
+  if(document.querySelector(".search-mobile").value != "") buscadoMobile.innerHTML = `Sua pesquisa foi: ${pesquisaMobile}`
+
+  document.querySelector(".search").value = ""
+  document.querySelector(".search-mobile").value = ""
+}))
