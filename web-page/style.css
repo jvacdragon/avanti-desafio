@@ -534,8 +534,10 @@ header .modeal {
   }
 }
 
-.desc u {
+.desc span:hover {
   cursor: pointer;
+  color: rgba(0, 92, 255, 1);
+  text-decoration: underline;
 }
 
 .hidden {
