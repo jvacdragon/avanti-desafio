@@ -36,8 +36,7 @@ document.querySelector('.search').addEventListener('submit', async (e) => {
         loop = false
         const name = data.name
         const profilePhoto = data.avatar_url
-        const bio = data.bio ? null : "<span>PERFIL SEM BIO</span>"
-
+        const bio = data.bio ?? "<span>PERFIL SEM BIO</span>"
 
 
         resultHtml.innerHTML = `
